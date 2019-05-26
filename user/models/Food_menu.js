@@ -39,6 +39,11 @@ var FoodMenu = new mongoose.Schema({
         type: String,
         required: true
     }
+    // foodDetails:{
+    //     type: String,
+    //     ref: 'Order',
+    //     required: true
+    // }
 });
 mongoose.model('Food_menu', FoodMenu);
 
